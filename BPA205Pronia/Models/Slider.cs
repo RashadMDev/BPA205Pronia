@@ -1,8 +1,9 @@
-﻿namespace BPA205Pronia.Models
+﻿using BPA205Pronia.Models.Base;
+
+namespace BPA205Pronia.Models
 {
-    public class Slider
+    public class Slider : BaseEntity
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Desc { get; set; }
         public string ImageUrl { get; set; }

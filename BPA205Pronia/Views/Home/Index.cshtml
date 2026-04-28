@@ -1,17 +1,10 @@
-﻿@using BPA205Pronia.Models.ViewModels
+﻿@using BPA205Pronia.ViewModels
 @{
     Layout = "_Layout";
 }
 
 @model HomeVM
 
-<h1>
-   @ViewData["Title"]
-</h1>
-
-<h1>
-    @ViewData["Number"]
-</h1>
 <!-- Begin Slider Area -->
 <div class="slider-area">
     <!-- Main Slider -->
@@ -171,10 +164,10 @@
                                             <div class="product-img">
                                                 <a href="shop.html">
                                                     <img class="primary-img"
-                                                         src="~/assets/images/website-images//@item.ImageUrl"
+                                                         src="~/assets/images/website-images//@item.Images.FirstOrDefault(i => i.IsPrimary)?.Url"
                                                          alt="Product Images" />
                                                     <img class="secondary-img"
-                                                         src="~/assets/images/website-images//1-2-270x300.jpg"
+                                                         src="~/assets/images/website-images//@item.Images.FirstOrDefault(i => !i.IsPrimary)?.Url"
                                                          alt="Product Images" />
                                                 </a>
                                                 <div class="product-add-action">

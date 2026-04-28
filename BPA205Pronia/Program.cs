@@ -1,3 +1,6 @@
+using BPA205Pronia.DAL;
+using Microsoft.EntityFrameworkCore;
+
 namespace BPA205Pronia
 {
     public class Program
@@ -6,6 +9,11 @@ namespace BPA205Pronia
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<AppDbContext>(option =>
+            {
+                option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+
 
             var app = builder.Build();
             app.MapControllerRoute(
