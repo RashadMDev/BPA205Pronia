@@ -27,5 +27,15 @@ namespace BPA205Pronia.Controllers
             };
             return View(vM);
         }
+        public IActionResult Details(int id)
+        {
+           Product singleProduct = _db.Products
+                .Include(p => p.Images)
+                .Include(p => p.Reviews)
+                .Include(p => p.Categories)
+                .Include(p => p.Tags)
+                .FirstOrDefault(p => p.Id == id);
+            return View(singleProduct);
+        }
     }
 }
