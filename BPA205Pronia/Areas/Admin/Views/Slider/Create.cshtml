@@ -1,0 +1,24 @@
+﻿@model Slider
+
+<div>
+    <h1 class="text-primary">Add Slider</h1>
+    <form asp-controller="Slider" asp-action="Create" method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input asp-for="@Model.Title" type="text" class="form-control" id="title" placeholder="Add title...">
+        </div>
+        <div class="mb-3">
+            <label for="desc" class="form-label">Description</label>
+            <input asp-for="@Model.Desc" type="text" class="form-control" id="desc" placeholder="Add description...">
+        </div>
+        <div class="mb-3">
+            <label for="discount" class="form-label">Discount</label>
+            <input asp-for="@Model.Discount" type="number" class="form-control" id="discount" placeholder="Add discount...">
+        </div>
+        <div class="mb-3">
+            <label for="imgUrl" class="form-label">Image URL</label>
+            <input asp-for="@Model.ImageUrl" type="text" class="form-control" id="imgUrl">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,66 @@
+﻿@model List<Slider>
+
+<div>
+    <a asp-controller="Slider" asp-action="Create" class="btn btn-primary">Add Slider</a>
+    <hr />
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Discount</th>
+                <th scope="col">Image</th>
+                <th scope="col">Deleted Status</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Slider slider in Model)
+            {
+                <tr>
+                    <th scope="row">@slider.Id</th>
+                    <td>@slider.Title</td>
+                    <td>@slider.Desc</td>
+                    <td>@slider.Discount</td>
+                    <td>
+                        <img style="width: 80px; height: 80px" src="~/assets/images/website-images//@slider.ImageUrl" />
+                    </td>
+                    @{
+                        if (slider.IsDeleted == false)
+                        {
+                            <td class="text-success">Silinmiyifdi</td>
+                        }
+                        else
+                        {
+                            <td class="text-danger">Silinifdi</td>
+                        }
+                    }
+                    <td>
+                        <a class="btn btn-warning">Update</a>
+                    </td>
+                    <td>
+
+                        @{
+                            if (slider.IsDeleted == false)
+                            {
+                                <form asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" method="post">
+                                    <button class="btn btn-danger">Delete</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form asp-controller="Slider" asp-action="Restore" asp-route-id="@slider.Id" method="post">
+                                    <button class="btn btn-success">Restore</button>
+                                </form>
+                            }
+                        }
+
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

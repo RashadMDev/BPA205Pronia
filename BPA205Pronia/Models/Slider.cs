@@ -1,4 +1,5 @@
 ﻿using BPA205Pronia.Models.Base;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace BPA205Pronia.Models
 {
@@ -10,3 +11,4 @@ namespace BPA205Pronia.Models
         public int Discount { get; set; }
     }
 }
+
