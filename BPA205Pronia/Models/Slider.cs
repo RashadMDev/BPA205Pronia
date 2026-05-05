@@ -1,5 +1,6 @@
 ﻿using BPA205Pronia.Models.Base;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BPA205Pronia.Models
 {
@@ -23,9 +24,10 @@ namespace BPA205Pronia.Models
         public string Desc { get; set; }
 
 
-        //Image Url Validation
-        [Required(ErrorMessage = "Image Url is required...")]
-        public string ImageUrl { get; set; }
+        //Image
+        public string? ImageUrl { get; set; }
+        [NotMapped]
+        public IFormFile ImageFile { get; set; }
 
 
         //Discount Validation

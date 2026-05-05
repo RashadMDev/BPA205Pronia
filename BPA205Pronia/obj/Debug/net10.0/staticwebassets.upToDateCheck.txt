@@ -2063,6 +2063,11 @@ wwwroot\assets\scss\_slider.scss
 wwwroot\assets\scss\_testimonial.scss
 wwwroot\assets\scss\_variables.scss
 wwwroot\assets\scss\_wishlist.scss
+wwwroot\uploads\sliders\473-536x354.jpg
+wwwroot\uploads\sliders\avgs unnamed.jpg
+wwwroot\uploads\sliders\index-2.html
+wwwroot\uploads\sliders\pexels-molnartamasphotography-34230603.jpg
+wwwroot\uploads\sliders\687d6b43-c9fa-4f38-83af-db1ada373c8dunnamed (1).jpg
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\modernizr-3.11.2.min.js
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\jquery.waypoints.js
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js
@@ -3785,3 +3790,4 @@ C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\admin\img\undraw_profil
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\admin\img\undraw_posting_photo.svg
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\admin\css\sb-admin-2.min.css
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\admin\css\sb-admin-2.css
+C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\uploads\sliders\index-2.html
