@@ -8,5 +8,6 @@ namespace BPA205Pronia.Models
         public string Comment { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public Product Product { get; set; }
+        public int ProductId { get; set; }
     }
 }

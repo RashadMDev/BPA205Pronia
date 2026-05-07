@@ -1,0 +1,32 @@
+﻿@using BPA205Pronia.Areas.Admin.ViewModels.Review
+@model CreateReviewVM
+
+<div>
+    <h1 class="text-primary">Add Review</h1>
+    <form asp-controller="Review" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="Username" class="form-label">Username</label>
+            <input asp-for="@Model.UserName" type="text" class="form-control" id="Username" placeholder="Add Username...">
+            <span class="text-danger" asp-validation-for="@Model.UserName"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Comment" class="form-label">Comment</label>
+            <input asp-for="@Model.Comment" type="text" class="form-control" id="Comment" placeholder="Add Comment...">
+            <span class="text-danger" asp-validation-for="@Model.Comment"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="@Model.ProductId" class="form-select" aria-label="Default select example">
+                <option disabled selected>Select Product</option>
+                @{
+                    foreach (Product product in ViewBag.Products)
+                    {
+                        <option value="@product.Id">@product.Title</option>
+                    }
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="@Model.ProductId"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

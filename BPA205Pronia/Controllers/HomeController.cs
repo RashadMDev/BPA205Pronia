@@ -33,7 +33,7 @@ namespace BPA205Pronia.Controllers
         {
            Product singleProduct = _db.Products
                 .Include(p => p.Images)
-                .Include(p => p.Reviews)
+                .Include(p => p.Reviews.Where(p => !p.IsDeleted))
                 .Include(p => p.Categories)
                 .Include(p => p.Tags)
                 .FirstOrDefault(p => p.Id == id);

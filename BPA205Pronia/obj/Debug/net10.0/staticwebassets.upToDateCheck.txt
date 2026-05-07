@@ -2068,6 +2068,7 @@ wwwroot\uploads\sliders\avgs unnamed.jpg
 wwwroot\uploads\sliders\index-2.html
 wwwroot\uploads\sliders\pexels-molnartamasphotography-34230603.jpg
 wwwroot\uploads\sliders\687d6b43-c9fa-4f38-83af-db1ada373c8dunnamed (1).jpg
+wwwroot\uploads\sliders\a337af8b-0400-464b-befa-30ac73a5a045unnamed (1).jpg
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\modernizr-3.11.2.min.js
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\jquery.waypoints.js
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js
