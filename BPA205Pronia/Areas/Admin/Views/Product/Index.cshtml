@@ -1,0 +1,105 @@
+﻿@model List<Product>
+
+<div>
+    <a asp-controller="Product" asp-action="Create" class="btn btn-primary">Add Product</a>
+    <hr />
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Price</th>
+                <th scope="col">Categories</th>
+                <th scope="col">Tags</th>
+                <th scope="col">Review Count</th>
+                <th scope="col">Deleted Status</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (Product product in Model)
+                {
+                    <tr>
+                        <th scope="row">@product.Id</th>
+                        <td>@product.Title</td>
+                        <td>@product.Description</td>
+                        <td>@product.SKU</td>
+                        <td>@product.Price</td>
+                        <td>
+                            @{
+                                if (product.Categories.Count > 0)
+                                {
+                                    foreach (Category category in product.Categories)
+                                    {
+                                        @category.Name
+                                        <br />
+                                    }
+                                }
+                                else
+                                {
+                                    <span class="text-warning">There are no Categories</span>
+                                }
+                            }
+                        </td>
+                        <td>
+                            @{
+                                @if (product.Tags.Count > 0)
+                                {
+                                    foreach (Tag tag in product.Tags)
+                                    {
+                                        @tag.Name
+                                        <br />
+                                    }
+                                }
+                                else
+                                {
+                                    <span class="text-warning">There are no Tags</span>
+                                }
+                            }
+                        </td>
+                        @if (product.Reviews.Count > 0)
+                        {
+                            <td>@product.Reviews.Count <a asp-area=null asp-controller="Home" asp-action="Details" asp-route-id="@product.Id">Reviews</a></td>
+                        }
+                        else
+                        {
+                            <td class="text-warning">There is no Review</td>
+                        }
+                        <td>
+                            @if (!product.IsDeleted)
+                            {
+                                <span class="text-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Inactive</span>
+                            }
+                        </td>
+                        @if (!product.IsDeleted)
+                        {
+                            <td>
+                                <form asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <form asp-controller="Product" asp-action="Restore" asp-route-id="@product.Id">
+                                    <button type="submit" class="btn btn-success">Restore</button>
+                                </form>
+                            </td>
+                        }
+                        <td>
+                            <a class="btn btn-warning" asp-controller="Product" asp-action="Update" asp-route-id="@product.Id">Update</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

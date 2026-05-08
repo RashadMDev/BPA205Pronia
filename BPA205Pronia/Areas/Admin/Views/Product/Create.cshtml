@@ -1,0 +1,49 @@
+﻿@using BPA205Pronia.Areas.Admin.ViewModels.Product
+@model CreateProductVM
+
+<div>
+    <h1 class="text-primary">Add Product</h1>
+    <form asp-controller="Product" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="Title" class="form-label">Title</label>
+            <input asp-for="@Model.Title" type="text" class="form-control" id="Title" placeholder="Add Title...">
+            <span class="text-danger" asp-validation-for="@Model.Title"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Description" class="form-label">Description</label>
+            <input asp-for="@Model.Description" type="text" class="form-control" id="Description" placeholder="Add Description...">
+            <span class="text-danger" asp-validation-for="@Model.Description"></span>
+        </div>
+        <div class="mb-3">
+            <label for="SKU" class="form-label">SKU</label>
+            <input asp-for="@Model.SKU" type="text" class="form-control" id="SKU" placeholder="Add SKU...">
+            <span class="text-danger" asp-validation-for="@Model.SKU"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Price" class="form-label">Price</label>
+            <input asp-for="@Model.Price" type="number" class="form-control" id="Price" placeholder="Add Price...">
+            <span class="text-danger" asp-validation-for="@Model.Price"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="CategoryIds" class="form-select" multiple aria-label="Multiple select Categories">
+                <option disabled selected>Select Categories</option>
+                @foreach (Category category in ViewBag.Categories)
+                {
+                    <option value="@category.Id">@category.Name</option>
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="@Model.CategoryIds"></span>
+
+
+            <select asp-for="TagIds" class="form-select" multiple aria-label="Multiple select Tags">
+                <option disabled selected>Select Tags</option>
+                @foreach (Tag tag in ViewBag.Tags)
+                {
+                    <option value="@tag.Id">@tag.Name</option>
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="@Model.TagIds"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
