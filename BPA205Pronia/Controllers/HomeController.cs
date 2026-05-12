@@ -1,6 +1,7 @@
 ﻿using BPA205Pronia.DAL;
 using BPA205Pronia.Models;
 using BPA205Pronia.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -29,6 +30,8 @@ namespace BPA205Pronia.Controllers
             };
             return View(vM);
         }
+
+        [Authorize]
         public IActionResult Details(int id)
         {
            Product singleProduct = _db.Products

@@ -1,4 +1,6 @@
 using BPA205Pronia.DAL;
+using BPA205Pronia.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace BPA205Pronia
@@ -14,6 +16,17 @@ namespace BPA205Pronia
                 option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
+            {
+                option.Password.RequiredLength = 8;
+                option.Password.RequireNonAlphanumeric = true;
+                option.Password.RequireDigit = true;
+                option.Password.RequireUppercase = true;
+                option.Password.RequireLowercase = true;
+
+                option.User.RequireUniqueEmail = true;
+                option.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.";
+            }).AddEntityFrameworkStores<AppDbContext>();
 
             var app = builder.Build();
 

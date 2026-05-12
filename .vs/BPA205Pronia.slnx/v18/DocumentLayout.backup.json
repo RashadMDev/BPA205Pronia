@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\viewmodels\\product\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\viewmodels\\product\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|c:\\users\\qonaq\\desktop\\bpa205pronia\\bpa205pronia\\viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B935A9DB-8A5D-E647-3CAD-7B2B14EB745F}|BPA205Pronia\\BPA205Pronia.csproj|solutionrelative:bpa205pronia\\viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 707,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\UpdateProductVM.cs",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\UpdateProductVM.cs",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\UpdateProductVM.cs",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\UpdateProductVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T12:33:46.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BPA205Pronia\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Views\\Account\\Login.cshtml*",
+              "RelativeToolTip": "BPA205Pronia\\Views\\Account\\Login.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-08T12:27:37.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGEAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-08T12:26:58.66Z",
+              "WhenOpened": "2026-05-12T12:25:53.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\CreateProductVM.cs",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\CreateProductVM.cs",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\CreateProductVM.cs",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\ViewModels\\Product\\CreateProductVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BPA205Pronia\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BPA205Pronia\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T12:13:44.557Z",
+              "WhenOpened": "2026-05-12T12:16:53.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwDAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-08T11:01:11.453Z",
+              "DocumentIndex": 3,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeDocumentMoniker": "BPA205Pronia\\ViewModels\\Account\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeToolTip": "BPA205Pronia\\ViewModels\\Account\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:03:44.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "BPA205Pronia\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Areas\\Admin\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "BPA205Pronia\\Areas\\Admin\\Controllers\\ProductController.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAHUAAAAdAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BPA205Pronia\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Qonaq\\Desktop\\BPA205Pronia\\BPA205Pronia\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "BPA205Pronia\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T10:23:01.469Z",
+              "WhenOpened": "2026-05-12T12:03:34.321Z",
               "EditorCaption": ""
             }
           ]

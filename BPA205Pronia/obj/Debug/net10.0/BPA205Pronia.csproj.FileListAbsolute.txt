@@ -1877,3 +1877,4 @@ C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\obj\Debug\net10.0\compressed\ku
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\obj\Debug\net10.0\compressed\3dcar5dyg0-{0}-rszun4iext-rszun4iext.gz
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\obj\Debug\net10.0\compressed\kntnt7ezv4-{0}-l5o0ocrnlv-l5o0ocrnlv.gz
 C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\obj\Debug\net10.0\compressed\qmb86ppcfr-{0}-fjwuovrm3t-fjwuovrm3t.gz
+C:\Users\Qonaq\Desktop\BPA205Pronia\BPA205Pronia\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
