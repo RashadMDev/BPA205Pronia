@@ -1,0 +1,49 @@
+﻿@model List<AppUser>
+
+<div>
+    <a asp-controller="user" asp-action="CreateAdmin">Create Admin</a>
+    <hr />
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Email</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (AppUser user in Model)
+                {
+                    <tr>
+                        <th scope="row">@user.Id</th>
+                        <td>@user.Email</td>
+                    
+                        <td>
+                            @if (User.IsInRole("SuperAdmin"))
+                            {
+                                if (!user.IsDeleted)
+                                {
+                                    <form asp-controller="User" asp-action="Delete" asp-route-id="@user.Id" method="post">
+                                        <button class="btn btn-danger">Block</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="User" asp-action="Restore" asp-route-id="@user.Id" method="post">
+                                        <button class="btn btn-success">Unblock</button>
+                                    </form>
+                                }
+                            }
+                            else
+                            {
+                                <p class="text-danger">Access Denied</p>
+                            }
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

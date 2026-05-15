@@ -23,7 +23,7 @@
                     <td>@slider.Title</td>
                     <td>@slider.Desc</td>
                     <td>@slider.Discount</td>
-                    <td>    
+                    <td>
                         <img style="width: 80px; height: 80px" src="~/uploads/sliders/@slider.ImageUrl" />
                     </td>
                     @{
@@ -42,18 +42,31 @@
                     <td>
 
                         @{
-                            if (slider.IsDeleted == false)
+
+                            if (User.IsInRole("SuperAdmin"))
                             {
-                                <form asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" method="post">
-                                    <button class="btn btn-danger">Delete</button>
-                                </form>
+                                if (slider.IsDeleted == false)
+                                {
+                                    <form asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" method="post">
+                                        <button class="btn btn-danger">Delete</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="Slider" asp-action="Restore" asp-route-id="@slider.Id" method="post">
+                                        <button class="btn btn-success">Restore</button>
+                                    </form>
+                                }
                             }
                             else
                             {
-                                <form asp-controller="Slider" asp-action="Restore" asp-route-id="@slider.Id" method="post">
-                                    <button class="btn btn-success">Restore</button>
-                                </form>
+                                <p class="text-danger">Access Denied</p>
                             }
+
+
+
+
+
                         }
 
 

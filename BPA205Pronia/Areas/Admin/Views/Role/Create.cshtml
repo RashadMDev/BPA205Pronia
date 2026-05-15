@@ -1,0 +1,14 @@
+﻿@using BPA205Pronia.Areas.Admin.ViewModels.Role
+@model CreateRoleVM
+
+<div>
+    <h1 class="text-primary">Create Role</h1>
+    <form asp-controller="Role" asp-action="Create" method="post">
+        <div class="mb-3">
+            <label for="Name" class="form-label">Role Name</label>
+            <input asp-for="@Model.Name" type="text" class="form-control" id="Name" placeholder="Add Role Name...">
+            <span class="text-danger" asp-validation-for="@Model.Name"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<IdentityRole>
+
+<div>
+    <a asp-controller="Role" asp-action="Create" class="btn btn-primary mb-3">Add Role</a>
+    <hr />
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (IdentityRole role in Model)
+                {
+                    <tr>
+                        <th scope="row">@role.Id</th>
+                        <td>@role.Name</td>
+                        <td>
+                            <a asp-controller="Role" asp-action="Edit" asp-route-id="@role.Id" class="btn btn-warning">Edit</a>
+                        </td>
+                        <td>
+                            <form asp-controller="Role" asp-action="Delete" asp-route-id="@role.Id" method="post">
+                                <button class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

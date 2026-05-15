@@ -113,6 +113,17 @@
                         <a class="collapse-item" asp-controller="Review" asp-action="Index">Reviews</a>
                         <a class="collapse-item" asp-controller="Product" asp-action="Index">Products</a>
                     </div>
+                    @{
+                        if (User.IsInRole("SuperAdmin"))
+                        {
+                            <div class="bg-white py-2 collapse-inner rounded">
+                                <h6 class="collapse-header">Models:</h6>
+                                <a class="collapse-item" asp-controller="User" asp-action="AllUsers">Users</a>
+                                <a class="collapse-item" asp-controller="User" asp-action="AllAdmins">Admins</a>
+                                <a class="collapse-item" asp-controller="Role" asp-action="Index">Roles</a>
+                            </div>
+                        }
+                    }
                 </div>
             </li>
 

@@ -25,7 +25,7 @@ namespace BPA205Pronia
                 option.Password.RequireLowercase = true;
 
                 option.User.RequireUniqueEmail = true;
-                option.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.";
+                option.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.@";
             }).AddEntityFrameworkStores<AppDbContext>();
 
             var app = builder.Build();

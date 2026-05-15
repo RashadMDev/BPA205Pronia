@@ -31,7 +31,6 @@ namespace BPA205Pronia.Controllers
             return View(vM);
         }
 
-        [Authorize]
         public IActionResult Details(int id)
         {
            Product singleProduct = _db.Products

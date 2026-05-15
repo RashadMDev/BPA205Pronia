@@ -1,11 +1,13 @@
 ﻿using BPA205Pronia.Areas.Admin.ViewModels.Product;
 using BPA205Pronia.DAL;
 using BPA205Pronia.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BPA205Pronia.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "Admin, SuperAdmin")]
     [Area("Admin")]
     public class ProductController : Controller
     {
